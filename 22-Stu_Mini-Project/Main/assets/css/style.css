@@ -1,0 +1,166 @@
+/* Universal Selector */
+* {
+  margin:0;
+  padding:0;  
+}
+
+/* Element Selectors */
+body {
+  position: relative;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  background-color: #f4f3f0;
+  color: #4d004d;
+  letter-spacing: .3px;
+}
+
+h1,
+h2 {
+  margin: 20px;
+}
+
+h1 {
+  font-weight: 900;
+  color: #4d004d;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-size: 60px;
+}
+
+h2 {
+  color: #f4f3f0;
+  font-weight: 700;
+}
+
+main {
+  padding: 60px 0;
+}
+
+li {
+  display: inline;
+  padding: 20px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: underline;
+  color: #4d004d;
+  font-size: 16px;
+}
+
+header,
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: #4d004d;
+}
+
+header {
+  position: fixed;
+  border-bottom: 1px solid #dddddd;
+  background-color: #ffffff;
+  top: 0;
+}
+
+footer {
+  position: absolute;
+  margin-top: 0;
+  bottom: 0;
+  color: #FDF8F5;   
+  font-size: 12px;
+}
+
+figure {
+  margin-bottom: 40px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+}
+
+section {
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+}
+
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px 10px 20px;
+  border: 3px solid #4d004d;
+  border-radius: 20px;
+  
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+  
+input, 
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid #4d004d;
+}
+
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+  
+button {
+  height: 40px;
+  width: 120px;
+  background-color: #f4f3f0;
+  color: #4d004d;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+}
+
+figcaption, figcaption a {
+  font-size: 12px;
+}
+
+figcaption {
+  background-color: #ffffff;
+  width: 250px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+figcaption a {
+  font-weight: 700;
+}
+ 
+/* Class Selectors */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+  color: #f4f3f0;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.lorem-text {
+  font-size: 15px;
+  line-height: 22px
+}
+
+.padding {
+  padding: 10px 300px 50px;
+}
+
+/* ID Selectors */
+#contact {
+background-color: #330033;
+}
